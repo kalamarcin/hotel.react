@@ -2,9 +2,9 @@ import React from 'react'
 
 function SerchBar() {
 	return (
-		<div>
-			<input className='input-text' type='text' placeholder='Szukaj...' />
-			<button className='button'>Szukaj</button>
+		<div className='d-flex'>
+			<input className='form-control' type='text' placeholder='Szukaj...' />
+			<button className='btn btn-primary'>Szukaj</button>
 		</div>
 	)
 }
